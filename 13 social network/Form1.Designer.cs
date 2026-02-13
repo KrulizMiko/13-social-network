@@ -46,6 +46,7 @@
             this.auth.TabIndex = 0;
             this.auth.Text = "Войти";
             this.auth.UseVisualStyleBackColor = true;
+            this.auth.Click += new System.EventHandler(this.auth_Click);
             // 
             // label1
             // 
